@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+h3{
+  font-size: 24px;
+  font-family: "allura";
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  width: 100%;
+  padding: 0 5rem 0 5rem;
+  text-align: center;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-logo{
+  width: 1.5rem;
+  height: 1.5rem;
+}

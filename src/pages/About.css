@@ -1,0 +1,44 @@
+.about-me-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about-me-container p{
+    width: 70%;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.skills-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.skill-card-container{
+    background-color: transparent;
+    border: 1px solid transparent ;
+    border-radius: 10px;
+    box-shadow: 10px 1px 20px black inset;
+}
+
+.skill-card-container img{
+    padding: 2rem;
+}
+
+@media only screen and (max-width: 520px) {
+    .about-me-container{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .skills{
+        text-align: center;
+    }
+    .skills-container{
+        justify-content: center;
+    }
+  }
