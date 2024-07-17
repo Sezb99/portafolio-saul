@@ -169,7 +169,7 @@ main > .cv-container {
     animation: none;
     border: none;
     word-break: keep-all;
-    white-space: unset;
-    width: unset;
+    white-space: inherit;
+    width: inherit;
   }
 }
