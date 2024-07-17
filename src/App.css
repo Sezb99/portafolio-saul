@@ -162,11 +162,14 @@ main > .cv-container {
     gap: 3rem;
   }
   #root {
-    padding: 0 1rem 5rem 1rem;
+    padding: 0 1rem 8rem 1rem;
   }
 
   .animated-title{
     animation: none;
     border: none;
+    word-break: keep-all;
+    white-space: unset;
+    width: unset;
   }
 }
