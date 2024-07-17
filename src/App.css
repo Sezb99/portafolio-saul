@@ -166,7 +166,6 @@ main > .cv-container {
   }
 
   .animated-title{
-    background-color: grey;
     animation: none;
     border: none;
     word-break: keep-all;
