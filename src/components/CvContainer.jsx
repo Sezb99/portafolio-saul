@@ -15,7 +15,7 @@ const CvContainer = () => {
   };
 
   const onclick = () => {
-    fetch("src\assets\Curriculum-Saúl.pdf")
+    fetch("./assets/Curriculum-Saúl.pdf")
       .then((res) => res.blob())
       .then((blob) => {
         const cvURL = window.URL.createObjectURL(blob);
@@ -32,7 +32,7 @@ const CvContainer = () => {
       onMouseEnter={handleFocus}
       onMouseLeave={handleBlur}
     >
-      <img src="src\assets\cv-saul-azul.png" alt="" ref={cvImg} />
+      <img src="./assets/cv-saul-azul.png" alt="" ref={cvImg} />
       {focus && <button onClick={onclick}>Download</button>}
     </section>
   );
