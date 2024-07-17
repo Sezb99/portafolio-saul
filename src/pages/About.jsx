@@ -20,19 +20,19 @@ const About = () => {
           <h1>Habilidades</h1>
           <section className="skills-container">
             <div className="skill-card-container">
-              <img src="src\assets\icons8-react-js-160.png" alt="react" />
+              <img src=".\assets\icons8-react-js-160.png" alt="react" />
             </div>
             <div className="skill-card-container">
-              <img src="src\assets\icono-html.png" alt="html5" />
+              <img src=".\assets\icono-html.png" alt="html5" />
             </div>
             <div className="skill-card-container">
-              <img src="src\assets\icono-css3.png" alt="css3" />
+              <img src=".\assets\icono-css3.png" alt="css3" />
             </div>
             <div className="skill-card-container">
-              <img src="src\assets\icono-js.png" alt="js" />
+              <img src=".\assets\icono-js.png" alt="js" />
             </div>
             <div className="skill-card-container">
-              <img src="src\assets\icono-node.png" alt="node" />
+              <img src=".\assets\icono-node.png" alt="node" />
             </div>
           </section>
         </section>
